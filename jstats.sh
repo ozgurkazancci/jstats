@@ -5,9 +5,7 @@ printf "\n jstats 0.1 by Ozgur Kazancci"
 printf "\n  https://ozgurkazancci.com"
 printf "\n==============================\n"
 
-printf "\n"
-
-if [ "$(jls name | xargs)" = "" ]; then printf "No jail found?\n\n";
+if [ "$(jls name | xargs)" = "" ]; then printf "\nNo jail found?\n\n"; exit 1;
 
 else
 
@@ -38,4 +36,5 @@ printf "\nJails - Disk space usage:"
 printf "\n-------------------------\n"
 jls path | while SUM= read -r line; do du -sh "$line"; done
 printf "\n"
-fi;
+exit 0;
+fi
