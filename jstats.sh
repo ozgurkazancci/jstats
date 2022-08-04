@@ -14,7 +14,7 @@ printf "\n------------"
 printf "\nJails Found:"
 printf "\n------------\n"
 
-jls | awk '{ print $2,$3 }' | tail -n +2
+jls name ip4.addr
 
 printf "\n------------------"
 printf "\nJails - RAM usage:"
