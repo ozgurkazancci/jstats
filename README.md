@@ -21,9 +21,9 @@ I like raw, homemade jails. I don't use any extra/additional jail management too
 ------------
 Jails Found:
 ------------
-10.10.10.2 nginxsrv
-10.10.10.3 phpserver
-10.10.10.4 sqlserver
+nginxsrv 10.10.10.2
+phpserver 10.10.10.3
+sqlserver 10.10.10.4
 
 ------------------
 Jails - RAM usage:
