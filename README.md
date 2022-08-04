@@ -15,14 +15,14 @@ A sample run:
 ------------
 Jails Found:
 ------------
-10.10.10.2 web1
+10.10.10.2 nginxsrv
 10.10.10.3 phpserver
 10.10.10.4 sqlserver
 
 ------------------
 Jails - RAM usage:
 ------------------
-web1: 1.8%
+nginxsrv: 1.8%
 phpserver: 1.6%
 sqlserver: 9.6%
 
@@ -31,7 +31,7 @@ Total RAM usage: 13.0%
 ------------------
 Jails - CPU usage:
 ------------------
-web1: 2.1%
+nginxsrv: 2.1%
 phpserver: 3.3%
 sqlserver: 7.5%
 
@@ -40,7 +40,7 @@ Total CPU usage: 12.9%
 -------------------------
 Jails - Disk space usage:
 -------------------------
-1.3G    /jails/web1
+1.3G    /jails/nginxsrv
 1.7G    /jails/phpserver
 1.4G    /jails/sqlserver
 
