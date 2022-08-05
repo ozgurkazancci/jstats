@@ -5,7 +5,7 @@ A small tool that I wrote for FreeBSD systems - lists RAM, CPU and disk space us
 
 Never tested with jails created by those jail management packages, such as; bastille, iocage, cbsd, et cetera.
 
-I like raw, homemade jails. I don't use any extra/additional jail management tool/package, being a minimal&analogue guy with a try-to-do-it-yourself spirit, I usually start building my jails only with a completely naked jail.conf file located in /etc folder.
+I like raw, homemade jails. I don't use any extra/additional jail management tool/package, being a minimal&analogue guy with a try-to-do-it-yourself spirit, I usually start building my jails only with a completely naked jail.conf file located in /etc folder. I like digging around in config files.
 
 **A sample run:**
 
