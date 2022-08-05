@@ -27,12 +27,18 @@ sqlserver 10.10.10.4
 
 ------------------
 Jails - RAM usage:
+[kB] - [MB] - [GB]
 ------------------
-nginxsrv: 1.8%
-phpserver: 1.6%
-sqlserver: 9.6%
+nginxsrv: 2.1%
+42908 kB - 42.908 MB - 0.042908 GB
 
-Total RAM usage: 13.0%
+phpserver: 2.2%
+45540 kB - 45.54 MB - 0.04554 GB
+
+sqlserver: 5.6%
+112416 kB - 112.416 MB - 0.112416 GB
+
+Total RAM usage: 9.9%
 
 ------------------
 Jails - CPU usage:
