@@ -1,7 +1,7 @@
 # jstats
 A small tool that I wrote for FreeBSD systems - lists RAM, CPU and disk space usage of the jails running in the host system.
 
-**Tested On:** FreeBSD 13.1 with standard jails defined within /etc/jail.conf file.
+**Tested On:** FreeBSD 13.1 with standard jails defined within /etc/jail.conf.
 
 Never tested with jails created by those jail management packages, such as; BastilleBSD, iocage, cbsd, et cetera.
 
