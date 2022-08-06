@@ -3,7 +3,7 @@ A tiny resource monitor for jails, small tool that I wrote for FreeBSD systems -
 
 **Tested On:** FreeBSD 13.1 with standard jails defined within **/etc/jail.conf** file.
 
-Never tested with jails created by those jail management packages, such as; BastilleBSD, iocage, cbsd, et cetera.
+Never tested with jails created by jail management packages, such as; BastilleBSD, iocage, cbsd, et cetera.
 
 I like raw, homemade jails, digging around in config files. I don't use any jail management tool/package, being a minimal&analogue guy with a try-to-do-it-yourself spirit.
 
