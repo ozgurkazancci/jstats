@@ -5,7 +5,7 @@ A tiny resource monitor for jails, small tool that I wrote for FreeBSD systems -
 
 Never tested with jails created by jail management packages, such as; BastilleBSD, iocage, cbsd, et cetera.
 
-I like raw, homemade jails, digging around in config files. I don't use any jail management tool/package, being a minimal&analogue guy with a try-to-do-it-yourself spirit.
+*I like raw, homemade jails, digging around in config files. I don't use any jail management tool/package, being a minimal&analogue guy with a try-to-do-it-yourself spirit.*
 
 **A sample run:**
 
