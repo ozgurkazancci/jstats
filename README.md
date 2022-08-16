@@ -1,5 +1,5 @@
 # jstats
-A tiny resource monitor for jails, small tool that I wrote for FreeBSD systems - lists RAM, CPU and disk space usage of the jails running in the host system.
+Jstats is a tiny resource monitor for jails, small tool that I wrote for FreeBSD systems - lists RAM, CPU and disk space usage of the jails running in the host system.
 
 **Tested On:** FreeBSD 13.1 with standard jails defined within **/etc/jail.conf** file.
 
