@@ -7,7 +7,7 @@ I like raw, homemade jails, digging around in config files. I don't use any jail
 
 But while it's all in the kernel, it shouldn't matter which jail manager you use; **jstats** should work.
 
-**A sample run:**
+**Usage and a sample run:**
 
 ```console
 [root@ozgur:~]# chmod +x jstats.sh
