@@ -13,7 +13,7 @@ But while it's all in the kernel, it shouldn't matter which jail manager you use
 [root@ozgur:~]# chmod +x jstats.sh
 [root@ozgur:~]# ./jstats.sh
 
-**Alternatively you might wish to move it somewhere inside $PATH for easier access;**
+#**Alternatively you might wish to move it somewhere inside $PATH for easier access;**
 
 [root@ozgur:~]# chmod +x jstats.sh
 [root@ozgur:~]# mv jstats.sh /usr/local/bin/jstats
