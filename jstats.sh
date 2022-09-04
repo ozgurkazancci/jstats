@@ -36,6 +36,8 @@ ps -o %cpu= -J $jails | awk '{sum+=$1} END {printf("%.1f%%\n",sum)}'
 
 printf "\n-------------------------"
 printf "\nJails - Disk space usage:"
+printf "\nThis might take a while.."
+sleep 0.5
 printf "\n-------------------------\n"
 jls path | while SUM= read -r line; do du -sh "$line"; done
 printf "\n"
