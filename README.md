@@ -57,6 +57,7 @@ Total CPU usage: 12.9%
 
 -------------------------
 Jails - Disk space usage:
+This might take a while..
 -------------------------
 1.3G    /jails/nginxsrv
 1.7G    /jails/phpserver
