@@ -39,7 +39,7 @@ printf "\nJails - Disk space usage:"
 printf "\nThis might take a while.."
 sleep 0.5
 printf "\n-------------------------\n"
-jls path | while SUM= read -r line; do du -sh "$line"; done
+jls path | while SUM= read -r line; do du -sh -x "$line"; done
 printf "\n"
 exit 0;
 fi
