@@ -21,10 +21,10 @@ Run as root on the jail host. Run `./jstats.sh --help` for usage information. Us
 [root@ozgur:~]# mv jstats.sh /usr/local/bin/jstats
 [root@ozgur:~]# jstats
 
-==============================
+========================================
  jstats 0.2 by Özgür Konstantin Kazanççı
   https://ozgurkazancci.com
-==============================
+========================================
 
 ------------
 Jails Found:
@@ -101,6 +101,7 @@ Run `sh tests/test-jstats.sh` for the regression tests. These tests use controll
 - Added --help and automatic cleanup of private temporary files.
 - Added regression tests for measurement errors and edge cases.
 - Verified v0.2 on FreeBSD 14.3-RELEASE and FreeBSD 15.0-RELEASE.
+- Aligned banner borders with the full author name.
 
 **04/08/2022 - v0.1**:
 

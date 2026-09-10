@@ -31,10 +31,19 @@ for argument do
     esac
 done
 
-printf '\n=============================='
-printf '\n jstats %s by Özgür Konstantin Kazanççı' "$VERSION"
+banner_green=
+banner_bright=
+banner_reset=
+if [ -t 1 ] && [ "${TERM:-dumb}" != dumb ] && [ "${NO_COLOR+x}" != x ]; then
+    banner_green=$(printf '\033[32m')
+    banner_bright=$(printf '\033[1;32m')
+    banner_reset=$(printf '\033[0m')
+fi
+
+printf '\n%s========================================' "$banner_green"
+printf '\n%s jstats %s by Özgür Konstantin Kazanççı%s' "$banner_bright" "$VERSION" "$banner_reset"
 printf '\n  https://ozgurkazancci.com'
-printf '\n==============================\n'
+printf '\n%s========================================%s\n' "$banner_green" "$banner_reset"
 
 for required_command in awk cat du id jls mktemp ps rm sysctl uname; do
     if ! command -v "$required_command" >/dev/null 2>&1; then
