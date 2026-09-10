@@ -1,9 +1,7 @@
-# jstats
+# jstats - FreeBSD Jail Monitor
 Jstats is a tiny resource monitor for jails, small tool that I wrote for FreeBSD systems - lists RAM, CPU and disk space usage of the jails running in the host system.
 
-**Tested On:** FreeBSD 14.3-RELEASE and FreeBSD 15.0-RELEASE with standard jails (v0.2).
-
-The original v0.1 was tested on FreeBSD 13.1 with standard jails defined within **/etc/jail.conf** file.
+**Tested On:** FreeBSD 13.1, 14.3-RELEASE, 15.0-RELEASE with standard jails defined in the **/etc/jail.conf** file.
 
 I like raw, homemade jails, digging around in config files. I don't use any jail management tool/package, being a minimal&analogue guy with a try-to-do-it-yourself spirit, I never tested jstats with jails created by jail management packages, such as; BastilleBSD, iocage, cbsd, et cetera.
 
