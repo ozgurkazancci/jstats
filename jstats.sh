@@ -32,7 +32,7 @@ for argument do
 done
 
 printf '\n=============================='
-printf '\n jstats %s by Ozgur Kazancci' "$VERSION"
+printf '\n jstats %s by Özgür Konstantin Kazanççı' "$VERSION"
 printf '\n  https://ozgurkazancci.com'
 printf '\n==============================\n'
 

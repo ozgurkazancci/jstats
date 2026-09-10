@@ -24,7 +24,7 @@ Run as root on the jail host. Run `./jstats.sh --help` for usage information. Us
 [root@ozgur:~]# jstats
 
 ==============================
- jstats 0.2 by Ozgur Kazancci
+ jstats 0.2 by Özgür Konstantin Kazanççı
   https://ozgurkazancci.com
 ==============================
 
